@@ -14,10 +14,10 @@ public class Aluno {
         aluno.setMatricula(sc.nextInt());
         sc.nextLine();
 
-        System.out.print("Infor o sexo: ");
+        System.out.print("Informeyhjuikolçp o sexo: ");
         aluno.setSexo(sc.nextLine());
 
-        System.out.print("Informa a data de nascimento: ");
+        System.out.print("Informe a data de nascimento: ");
         aluno.setNascimento(sc.nextLine());
 
         System.out.print("Informe o Curso: ");
@@ -27,13 +27,13 @@ public class Aluno {
         aluno.setInicio(sc.nextInt());
 
         System.out.print("Informe a Nota da Prova 1: ");
-        aluno.setNota1(sc.nextInt());
+        aluno.setNota1(sc.nextDouble());
 
         System.out.print("Informe a Nota da Prova 2: ");
-        aluno.setNota2(sc.nextInt());
+        aluno.setNota2(sc.nextDouble());
 
         System.out.print("Informe a média dos Trabalhos: ");
-        aluno.setMedia(sc.nextInt());
+        aluno.setMedia(sc.nextDouble());
         sc.close();
 
         boolean aprovado = aluno.estaAprovado();
